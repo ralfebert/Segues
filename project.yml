@@ -1,0 +1,17 @@
+name: Segues
+options:
+  bundleIdPrefix: com.example
+  generateEmptyDirectories: true
+  deploymentTarget:
+    iOS: "10.0"
+targets:
+  Segues:
+    type: application
+    platform: iOS
+    sources:
+      - path: Segues
+        excludes:
+          - "Assets/*.sketch"
+    settings:
+      base:
+        SWIFT_VERSION: 5.0
