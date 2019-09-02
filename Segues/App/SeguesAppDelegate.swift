@@ -1,4 +1,5 @@
-// © 2019 Ralf Ebert — Segues
+// © 2019 Ralf Ebert — iOS Example Project: Segues
+// License: https://opensource.org/licenses/MIT
 
 import UIKit
 

@@ -11,6 +11,7 @@
 		0BEB8E9989BEC05CF3D1163A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DBB8DFB6E423657AF3045D /* Main.storyboard */; };
 		8AB30E51F0C8EF14CCB1AF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A231D95AB941BBB5DEA3BE2F /* Assets.xcassets */; };
 		9C0EFFAB7846E48CFCDD742A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A89236A79ED04952F0F0B61 /* LaunchScreen.storyboard */; };
+		BFDA5DB2231D629F00A20B11 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA5DB1231D629F00A20B11 /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A4DBB8DFB6E423657AF3045D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B215B723B28E395C9DCB66D2 /* Segues.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Segues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD484E9B912BE8D85D3E0459 /* SeguesAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguesAppDelegate.swift; sourceTree = "<group>"; };
+		BFDA5DB1231D629F00A20B11 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -87,6 +89,7 @@
 		D290BBD925D9923E6F1339F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFDA5DB1231D629F00A20B11 /* ExampleViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 			);
 			mainGroup = 823839604A1EC71CE359D8B5;
@@ -153,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035B510599E06D816451E9C9 /* SeguesAppDelegate.swift in Sources */,
+				BFDA5DB2231D629F00A20B11 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +181,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Segues/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Segues;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -302,7 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Segues/App/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Segues;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
